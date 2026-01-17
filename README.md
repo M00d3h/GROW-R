@@ -1,7 +1,11 @@
 # GROW-R: Guided Rover for Watering with Reinforcement Learning 🌿🤖
 
-![Project Demo](demo.gif)
-*(Note: To view the demo, ensure a `demo.gif` is present in the root directory, or see `episode.mp4`)*
+<p align="center">
+  <img src="demo1.gif" width="80%" />
+  <br><br>
+  <img src="demo2.gif" width="80%" />
+</p>
+*(Note: To view the demos, ensure `demo1.gif` and `demo2.gif` are present in the root directory, or see `episode.mp4`)*
 
 ## 📖 Overview
 
@@ -16,14 +20,21 @@ Developed as a capstone for a Reinforcement Learning course, this project implem
 ## 📂 Repository Structure
 
 ```text
-RL-Env/
+GROW-R/
 ├── assets/             # 🖼️ Environment textures, 3D models, and media
 ├── models/             # 🤖 Trained RL model weights (.zip)
 ├── results/            # 📈 Training logs and performance graphs
 ├── gradio-app/         # 🖥️ Source code for the interactive Gradio interface
+├── A2C_training.py     # 🏋️ Training script for A2C algorithm
+├── trainingCode.py     # 🧠 Main training logic for DQN and other models
+├── training_utils.py   # 🛠️ Helpers for model training and evaluation
+├── mcts_custom_trainer.py # 🌲 MCTS-based trainer implementation
 ├── plantos_env.py      # 🌍 Core Gymnasium environment logic
 ├── plantos_utils.py    # 🛠️ Helper functions and environment constants
+├── plantos_3d_viewer.py # 🧊 3D visualization engine (Ursina)
 ├── example_usage.py    # 🚀 CLI script for running pre-trained agents
+├── test_environment.py # 🧪 Script to verify environment mechanics
+├── create_assets.py    # 🎨 Script for generating/processing assets
 ├── requirements.txt    # 📦 Python dependencies
 └── README.md           # 📜 Project overview and documentation
 ```
