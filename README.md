@@ -5,7 +5,6 @@
   <br><br>
   <img src="demo2.gif" width="80%" />
 </p>
-*(Note: To view the demos, ensure `demo1.gif` and `demo2.gif` are present in the root directory, or see `episode.mp4`)*
 
 ## 📖 Overview
 
