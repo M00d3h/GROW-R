@@ -1,0 +1,6 @@
+gymnasium==0.29.1
+numpy==1.26.4
+pygame==2.5.2
+ursina==8.2.0
+torch==2.8.0+cu128
+stable-baselines3==2.2.1
